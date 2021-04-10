@@ -9,7 +9,69 @@ html {
 }
 
 body {
-  background-color: #59b59e;
+  background-color: #0a0a0a;
   color: #f8fce1;
+}
+
+.container {
+  width: 100%;
+}
+
+.navigation {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2.5fr 1fr;
+      grid-template-columns: 2.5fr 1fr;
+  width: 100%;
+  height: 65px;
+  margin-bottom: 40px;
+}
+
+.navigation .navigation-logo {
+  text-decoration: none;
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  padding: 20px 40px;
+}
+
+.navigation .navigation-logo .navigation-logo-link {
+  text-decoration: none;
+}
+
+.navigation .navigation-logo .navigation-logo-link .navigation-logo-char {
+  padding: 0 5px;
+}
+
+.navigation .navigation-logo .navigation-logo-link .navigation-logo-char:last-child {
+  border: none;
+}
+
+.navigation .navigation-logo .navigation-logo-link:visited {
+  color: #f8fce1;
+}
+
+.navigation .navigation-menu {
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 60px;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  width: 20%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.navigation .navigation-menu-component {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.navigation .navigation-menu-component:hover {
+  cursor: pointer;
+  opacity: 1;
 }
 /*# sourceMappingURL=styles.css.map */
