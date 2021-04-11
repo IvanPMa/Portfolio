@@ -117,9 +117,8 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    
 }
 
 .navigation{
@@ -182,11 +181,22 @@ body{
 }
 
 .about{
+    height: calc(80vh - 80px);
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin-top: 100px;
     width: 65%;
+    overflow: hidden;
 
+    .about-image{
+        filter: grayscale(80%);
+        border-radius: 0px 30px 0 30px;
+        transition: all linear 0.5s;
+    }
+    .about-image:hover{
+        border-radius: 0;
+        filter: grayscale(0%);
+    }
     .about-me{
         padding: 50px;
         margin-left: 30px;
@@ -205,3 +215,34 @@ body{
     }
 }
 
+.work{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    .work-community{
+        width: 80%;
+        display: flex;
+        text-decoration: none;
+        .work-community-img{
+            width: 65%;
+            filter: grayscale(90%);
+            transition: all linear 0.5s;
+        }
+        .work-community-img:hover{
+            filter: grayscale(0%);
+        }
+        .work-community-text{
+            width: 35%;
+            padding: 0 40px;
+            font-family: $font-general;
+            line-height: 40px;
+            letter-spacing: 1px;
+            color: $text-color;
+            font-size:35px;
+        }
+    }
+}
