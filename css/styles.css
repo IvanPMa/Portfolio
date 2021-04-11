@@ -190,7 +190,7 @@ body {
           flex: 1;
   text-decoration: none;
   font-size: 40px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
   padding: 20px 40px;
 }
 
@@ -217,7 +217,7 @@ body {
   letter-spacing: 1px;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 28px;
   width: 20%;
   -webkit-box-pack: justify;
@@ -268,7 +268,7 @@ body {
 .about .about-me {
   padding: 30px;
   margin-left: 30px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 .about .about-me .about-me-title {
@@ -283,16 +283,18 @@ body {
 }
 
 .work {
+  margin-top: 20px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 100vh;
 }
 
@@ -302,6 +304,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   text-decoration: none;
+  margin-bottom: 50px;
 }
 
 .work .work-community .work-community-img {
@@ -320,10 +323,14 @@ body {
 .work .work-community .work-community-text {
   width: 60%;
   padding: 0 40px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
   line-height: 40px;
   letter-spacing: 1px;
+  color: #b0b0b0;
+  font-size: 25px;
+}
+
+.work .work-community .work-community-text .work-community-text-title {
   color: #fafafc;
-  font-size: 35px;
 }
 /*# sourceMappingURL=styles.css.map */
