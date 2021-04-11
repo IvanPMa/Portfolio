@@ -4,5 +4,3 @@ window.onload = function(){
     $('body').removeClass('hidden');
 }
 
-//Scroll reveal
-ScrollReveal().reveal('.work-community');
