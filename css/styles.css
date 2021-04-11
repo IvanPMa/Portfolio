@@ -332,4 +332,27 @@ body {
 .work .work-community .work-community-text .work-community-text-title {
   color: #fafafc;
 }
+
+.work .work-mentor {
+  width: 100%;
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.work .work-mentor .cards {
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 30px;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
 /*# sourceMappingURL=styles.css.map */
