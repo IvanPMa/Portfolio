@@ -360,8 +360,8 @@ body {
   padding: 10px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: minmax(0, auto) minmax(0, auto) minmax(0, auto);
-      grid-template-columns: minmax(0, auto) minmax(0, auto) minmax(0, auto);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   -ms-grid-rows: minmax(0, auto) minmax(0, auto);
       grid-template-rows: minmax(0, auto) minmax(0, auto);
   margin: 0 auto;
@@ -400,7 +400,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 50px;
+}
+
+.contact .contact-info {
+  font-size: 30px;
 }
 
 .contact .contact-container {
@@ -419,5 +422,23 @@ body {
   -ms-grid-column-align: center;
       justify-self: center;
   text-align: center;
+}
+
+.contact .social .contact-card {
+  text-decoration: none;
+  color: #fafafc;
+}
+
+.contact .social .contact-card .contact-card-icon {
+  font-size: 60px;
+}
+
+.contact .social .contact-card .contact-card-tag {
+  color: #b0b0b0;
+}
+
+.footer {
+  margin-top: 150px;
+  font-size: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
