@@ -327,6 +327,8 @@ body{
         justify-self: center;
         text-align: center;
         .contact-card{
+            width: 100%;
+            display: block;
             text-decoration: none;
             color: $text-color;
             //icon card social
@@ -338,6 +340,36 @@ body{
             }
         }
     }
+
+    .facebook{
+        transition: all linear 0.5s;
+    }
+    .facebook:hover i{
+        color: #077ae9;
+        font-size: 70px;
+    }
+
+    .instagram{
+        transition: all linear 0.5s;
+    }
+    .instagram:hover i{
+        color: #c1339f;
+    }
+
+    .linkedin{
+        transition: all linear 0.5s;
+    }
+    .linkedin:hover i{
+        color: #1376da;
+    }
+
+    .hola{
+        transition: all linear 0.5s;
+    }
+    .hola:hover i{
+        color: #1376da;
+    }
+    
 }
 
 .footer{

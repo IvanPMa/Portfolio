@@ -425,6 +425,8 @@ body {
 }
 
 .contact .social .contact-card {
+  width: 100%;
+  display: block;
   text-decoration: none;
   color: #fafafc;
 }
@@ -435,6 +437,43 @@ body {
 
 .contact .social .contact-card .contact-card-tag {
   color: #b0b0b0;
+}
+
+.contact .facebook {
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+
+.contact .facebook:hover i {
+  color: #077ae9;
+  font-size: 70px;
+}
+
+.contact .instagram {
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+
+.contact .instagram:hover i {
+  color: #c1339f;
+}
+
+.contact .linkedin {
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+
+.contact .linkedin:hover i {
+  color: #1376da;
+}
+
+.contact .hola {
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+
+.contact .hola:hover i {
+  color: #1376da;
 }
 
 .footer {
