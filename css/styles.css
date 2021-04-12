@@ -789,5 +789,35 @@ body {
     line-height: 20px;
     font-size: 13px;
   }
+  .contact .contact-info {
+    width: 100%;
+    font-size: 20px;
+  }
+  .contact .contact-info br {
+    display: none;
+  }
+  .contact .contact-container {
+    margin-top: 80px;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 0px;
+  }
+  .contact .social {
+    margin-bottom: 10px;
+  }
+  .contact .social .contact-card {
+    width: 100%;
+  }
+  .contact .social .contact-card .contact-card-icon {
+    font-size: 40px;
+  }
+  .contact .social .contact-card .contact-card-title {
+    letter-spacing: 0px;
+  }
+  .contact .social .contact-card .contact-card-tag {
+    letter-spacing: 0px;
+    font-size: 11px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

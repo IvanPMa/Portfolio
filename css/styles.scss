@@ -774,4 +774,43 @@ $breakpoint-eigth: 514px;
             }
         }
     }
+
+    .contact{
+        
+        .contact-info{
+            width: 100%;
+            font-size: 20px;
+            br{
+                display: none;
+            }
+        }
+        .contact-container{
+            margin-top: 80px;
+            width: 100%;
+            display: grid;
+            
+            grid-gap: 0px;
+    
+        }
+        .social{
+            margin-bottom: 10px;
+            .contact-card{
+                width: 100%;
+                
+                
+                //icon card social
+                .contact-card-icon{
+                    font-size: 40px;
+                }
+                .contact-card-title{
+                    letter-spacing: 0px;
+                }
+                .contact-card-tag{
+                    letter-spacing: 0px;
+                    font-size: 11px;
+                }
+            }
+        }
+    }
 }
+
