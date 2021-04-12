@@ -145,8 +145,9 @@ body{
         font-family: $font-general;
         padding: 20px 40px;
         
-
+        
         .navigation-logo-link{
+            color: $text-color;
             text-decoration: none;
             .navigation-logo-char{
                 
