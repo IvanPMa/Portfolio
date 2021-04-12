@@ -1,9 +1,10 @@
 html {
     box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+    scroll-behavior: smooth;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
 // Colors
 // $body-color: #0a0a0a;
 $text-color: #fafafc;
