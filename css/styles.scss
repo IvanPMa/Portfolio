@@ -312,7 +312,7 @@ body{
     align-items: center;
     
     .contact-info{
-        font-size: 30px;
+        font-size: 25px;
     }
     .contact-container{
         margin-top: 80px;
@@ -331,12 +331,18 @@ body{
             display: block;
             text-decoration: none;
             color: $text-color;
+            
             //icon card social
             .contact-card-icon{
                 font-size: 60px;
             }
+            .contact-card-title{
+                letter-spacing: 1px;
+            }
             .contact-card-tag{
                 color: $description-color;
+                font-family: sans-serif;
+                letter-spacing: 1px;
             }
         }
     }
@@ -365,6 +371,7 @@ body{
 
     .whatsapp{
         transition: all linear 0.5s;
+        
     }
     .whatsapp:hover i{
         color: #49c759;
@@ -385,6 +392,12 @@ body{
 }
 
 .footer{
+    display: block;
+    height: 95px;
     margin-top: 150px;
-    font-size: 20px;
+    font-weight: normal;
+    .credits{
+        margin-top: 60px;
+        font-weight: normal;
+    }
 }

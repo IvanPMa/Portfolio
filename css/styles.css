@@ -403,7 +403,7 @@ body {
 }
 
 .contact .contact-info {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .contact .contact-container {
@@ -435,8 +435,14 @@ body {
   font-size: 60px;
 }
 
+.contact .social .contact-card .contact-card-title {
+  letter-spacing: 1px;
+}
+
 .contact .social .contact-card .contact-card-tag {
   color: #b0b0b0;
+  font-family: sans-serif;
+  letter-spacing: 1px;
 }
 
 .contact .facebook {
@@ -495,7 +501,14 @@ body {
 }
 
 .footer {
+  display: block;
+  height: 95px;
   margin-top: 150px;
-  font-size: 20px;
+  font-weight: normal;
+}
+
+.footer .credits {
+  margin-top: 60px;
+  font-weight: normal;
 }
 /*# sourceMappingURL=styles.css.map */
