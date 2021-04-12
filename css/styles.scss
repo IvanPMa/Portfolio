@@ -404,15 +404,8 @@ body{
 
 
 //Breakpoints
-$breakpoint-one:1115px;
-@media (max-width:$breakpoint-one){
-
-}
-
-
-
-$breakpoint-two: 1098px;
-@media(max-width:$breakpoint-two){
+$breakpoint-one: 1194px;
+@media(max-width:$breakpoint-one){
     .work{
         .work-mentor{
             .cards{
@@ -422,6 +415,13 @@ $breakpoint-two: 1098px;
         
     }
 }
+$breakpoint-two:1115px;
+@media (max-width:$breakpoint-two){
+
+}
+
+
+
 
 
 

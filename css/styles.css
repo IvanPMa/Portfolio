@@ -512,7 +512,7 @@ body {
   font-weight: normal;
 }
 
-@media (max-width: 1098px) {
+@media (max-width: 1194px) {
   .work .work-mentor .cards {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
