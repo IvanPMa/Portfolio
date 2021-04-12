@@ -417,7 +417,21 @@ $breakpoint-one: 1194px;
 }
 $breakpoint-two:1115px;
 @media (max-width:$breakpoint-two){
-
+    .work{
+        .work-community{
+            .work-community-img{
+                width: 50%;
+            }
+            .work-community-text{
+                width: 50%;
+                font-size: 15px;
+                line-height: 30px;
+                .work-community-text-title{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
 }
 
 
