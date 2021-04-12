@@ -180,8 +180,10 @@ body{
         list-style: none;
     }
     .navigation-menu-component{
+        text-decoration: none;
+        color: $text-color;
         cursor: pointer;
-        opacity: 0.5;
+        opacity: 0.8;
     }
     .navigation-menu-component:hover{
         cursor: pointer;

@@ -237,8 +237,10 @@ body {
 }
 
 .navigation .navigation-menu-component {
+  text-decoration: none;
+  color: #fafafc;
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .navigation .navigation-menu-component:hover {
