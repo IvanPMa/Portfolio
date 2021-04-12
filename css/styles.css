@@ -250,19 +250,12 @@ body {
   margin-top: 100px;
   width: 70%;
   overflow: hidden;
+  margin-bottom: 100px;
 }
 
 .about .about-image {
-  -webkit-filter: grayscale(50%);
-          filter: grayscale(50%);
   -webkit-transition: all linear 0.5s;
   transition: all linear 0.5s;
-}
-
-.about .about-image:hover {
-  border-radius: 0;
-  -webkit-filter: grayscale(0%);
-          filter: grayscale(0%);
 }
 
 .about .about-me {
@@ -326,11 +319,12 @@ body {
   line-height: 40px;
   letter-spacing: 1px;
   color: #b0b0b0;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .work .work-community .work-community-text .work-community-text-title {
   color: #fafafc;
+  font-size: 35px;
 }
 
 .work .work-mentor {
@@ -346,6 +340,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 100px;
 }
 
 .work .work-mentor .work-mentor-title {

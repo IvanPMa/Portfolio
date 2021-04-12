@@ -191,14 +191,11 @@ body{
     margin-top: 100px;
     width: 70%;
     overflow: hidden;
+    margin-bottom: 100px;
 
     .about-image{
-        filter: grayscale(50%);
+        
         transition: all linear 0.5s;
-    }
-    .about-image:hover{
-        border-radius: 0;
-        filter: grayscale(0%);
     }
     .about-me{
         padding: 30px;
@@ -247,10 +244,11 @@ body{
             line-height: 40px;
             letter-spacing: 1px;
             color: $description-color;
-            font-size:25px;
+            font-size:20px;
 
             .work-community-text-title{
                 color: $text-color;
+                font-size: 35px;
             }
         }
         margin-bottom: 50px;
@@ -263,6 +261,7 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 100px;
         .work-mentor-title{
             font-size: 35px;
             margin-bottom: 0px;
