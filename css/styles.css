@@ -696,7 +696,7 @@ body {
   }
   .contact .contact-container {
     margin-top: 80px;
-    width: 80%;
+    width: 100%;
     display: -ms-grid;
     display: grid;
     grid-gap: 0px;
