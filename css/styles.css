@@ -628,7 +628,7 @@ body {
 
 @media (max-width: 771px) {
   .work .work-community {
-    width: 80%;
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
