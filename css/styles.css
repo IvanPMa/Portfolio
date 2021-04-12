@@ -253,9 +253,8 @@ body {
 }
 
 .about .about-image {
-  -webkit-filter: grayscale(80%);
-          filter: grayscale(80%);
-  border-radius: 0px 30px 0 30px;
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
   -webkit-transition: all linear 0.5s;
   transition: all linear 0.5s;
 }
@@ -382,7 +381,6 @@ body {
   margin: 0 auto;
   -webkit-transition: all linear 0.5s;
   transition: all linear 0.5s;
-  margin-bottom: 30px;
 }
 
 .work .work-mentor .cards .work-mentor-card:hover {
