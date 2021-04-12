@@ -401,3 +401,46 @@ body{
         font-weight: normal;
     }
 }
+
+
+//Breakpoints
+$breakpoint-one:1115px;
+@media (max-width:$breakpoint-one){
+
+}
+
+
+
+$breakpoint-two: 1098px;
+@media(max-width:$breakpoint-two){
+    .work{
+        .work-mentor{
+            .cards{
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        
+    }
+}
+
+
+
+$breakpoint-three:1068px;
+@media (max-width:$breakpoint-three){
+    .about{
+        // .about-image{
+            
+        // }
+        .about-me{
+            margin-top: -50px;
+            .about-me-title{
+                font-size: 35px;
+            }
+            .about-me-body{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+

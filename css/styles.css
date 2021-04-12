@@ -511,4 +511,23 @@ body {
   margin-top: 60px;
   font-weight: normal;
 }
+
+@media (max-width: 1098px) {
+  .work .work-mentor .cards {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 1068px) {
+  .about .about-me {
+    margin-top: -50px;
+  }
+  .about .about-me .about-me-title {
+    font-size: 35px;
+  }
+  .about .about-me .about-me-body {
+    font-size: 20px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
