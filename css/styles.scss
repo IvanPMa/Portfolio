@@ -434,11 +434,6 @@ $breakpoint-two:1115px;
     }
 }
 
-
-
-
-
-
 $breakpoint-three:1068px;
 @media (max-width:$breakpoint-three){
     .about{
@@ -457,4 +452,9 @@ $breakpoint-three:1068px;
     }
 }
 
+
+$breakpoint-four:1045px;
+@media (max-width:$breakpoint-four){
+    
+}
 
