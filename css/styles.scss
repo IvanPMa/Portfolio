@@ -313,6 +313,10 @@ body{
     
     .contact-info{
         font-size: 25px;
+
+        br{
+            display: none;
+        }
     }
     .contact-container{
         margin-top: 80px;
@@ -406,7 +410,11 @@ body{
 //Breakpoints
 $breakpoint-one: 1194px;
 @media(max-width:$breakpoint-one){
+    .about{
+        margin-bottom: 0px;
+    }
     .work{
+        
         .work-mentor{
             .cards{
                 grid-template-columns: 1fr 1fr;
@@ -434,6 +442,38 @@ $breakpoint-two:1115px;
     }
 }
 
+$breakpoint-contact:1096px;
+@media (max-width:$breakpoint-contact){
+    .contact{
+        .contact-container{
+            margin-top: 80px;
+            width: 80%;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-gap: 40px;
+    
+        }
+    }
+    .social{
+        
+        .contact-card{
+            //icon card social
+            .contact-card-icon{
+                font-size: 40px;
+            }
+            .contact-card-title{
+                letter-spacing: 1px;
+                font-size: 15px;
+            }
+            .contact-card-tag{
+                font-size: 13px;
+                letter-spacing: .5px;
+            }
+        }
+    }
+}
+
 $breakpoint-three:1068px;
 @media (max-width:$breakpoint-three){
     .about{
@@ -455,6 +495,29 @@ $breakpoint-three:1068px;
 
 $breakpoint-four:1045px;
 @media (max-width:$breakpoint-four){
-    
+    .contact{
+        .contact-info{
+            br{
+                display: block;
+            }
+        }
+    }
 }
 
+$breakpoint-five:868px;
+@media (max-width:$breakpoint-five){
+    .about{
+        // .about-image{
+            
+        // }
+        .about-me{
+            margin-top: -30px;
+            .about-me-title{
+                font-size: 25px;
+            }
+            .about-me-body{
+                font-size: 15px;
+            }
+        }
+    }
+}

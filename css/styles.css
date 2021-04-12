@@ -406,6 +406,10 @@ body {
   font-size: 25px;
 }
 
+.contact .contact-info br {
+  display: none;
+}
+
 .contact .contact-container {
   margin-top: 80px;
   width: 80%;
@@ -513,6 +517,9 @@ body {
 }
 
 @media (max-width: 1194px) {
+  .about {
+    margin-bottom: 0px;
+  }
   .work .work-mentor .cards {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -533,6 +540,31 @@ body {
   }
 }
 
+@media (max-width: 1096px) {
+  .contact .contact-container {
+    margin-top: 80px;
+    width: 80%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+  .social .contact-card .contact-card-icon {
+    font-size: 40px;
+  }
+  .social .contact-card .contact-card-title {
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+  .social .contact-card .contact-card-tag {
+    font-size: 13px;
+    letter-spacing: .5px;
+  }
+}
+
 @media (max-width: 1068px) {
   .about .about-me {
     margin-top: -50px;
@@ -542,6 +574,24 @@ body {
   }
   .about .about-me .about-me-body {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 1045px) {
+  .contact .contact-info br {
+    display: block;
+  }
+}
+
+@media (max-width: 868px) {
+  .about .about-me {
+    margin-top: -30px;
+  }
+  .about .about-me .about-me-title {
+    font-size: 25px;
+  }
+  .about .about-me .about-me-body {
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
