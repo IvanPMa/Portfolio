@@ -567,6 +567,36 @@ $breakpoint-six:815px;
 
 $breakpoint-seven:810px;
 @media(max-width:$breakpoint-seven){
+    .about{
+        height: calc(80vh - 80px);
+        display: flex;
+        // flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: 100px;
+        width: 80%;
+        overflow: hidden;
+        margin-bottom: 100px;
+    
+        .about-image{
+            width: 60%;
+            height: 400px;
+        }
+        .about-me{
+            width: 40%;
+            padding: 10px;
+            
+            
+            .about-me-title{
+                
+                // letter-spacing: 0.5px;
+                
+            }
+            .about-me-body{
+                
+            }
+        }
+    }
+
     .work{
         
         

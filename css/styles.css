@@ -627,6 +627,28 @@ body {
 }
 
 @media (max-width: 810px) {
+  .about {
+    height: calc(80vh - 80px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 100px;
+    width: 80%;
+    overflow: hidden;
+    margin-bottom: 100px;
+  }
+  .about .about-image {
+    width: 60%;
+    height: 400px;
+  }
+  .about .about-me {
+    width: 40%;
+    padding: 10px;
+  }
   .work .work-community {
     width: 100%;
     -webkit-box-orient: vertical;
