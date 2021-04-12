@@ -401,4 +401,22 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.contact .contact-container {
+  margin-top: 80px;
+  width: 80%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  grid-gap: 40px;
+}
+
+.contact .social {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  text-align: center;
+}
 /*# sourceMappingURL=styles.css.map */
