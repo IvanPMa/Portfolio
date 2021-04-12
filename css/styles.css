@@ -594,4 +594,21 @@ body {
     font-size: 15px;
   }
 }
+
+@media (max-width: 815px) {
+  .about .about-image {
+    height: 370px;
+  }
+  .about .about-me {
+    padding: 0px 30px;
+    margin-top: -10px;
+  }
+  .about .about-me .about-me-title {
+    font-size: 25px;
+  }
+  .about .about-me .about-me-body {
+    font-size: 15px;
+    line-height: 30px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

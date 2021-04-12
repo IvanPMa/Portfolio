@@ -521,3 +521,25 @@ $breakpoint-five:868px;
         }
     }
 }
+
+
+//ipad breakponit 
+$breakpoint-six:815px;
+@media (max-width:$breakpoint-six){
+    .about{
+        .about-image{
+           height: 370px; 
+        }
+        .about-me{
+            padding: 0px 30px;
+            margin-top: -10px;
+            .about-me-title{
+                font-size: 25px;
+            }
+            .about-me-body{
+                font-size: 15px;
+                line-height: 30px;
+            }
+        }
+    }
+}
