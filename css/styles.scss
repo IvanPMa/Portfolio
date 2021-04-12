@@ -528,7 +528,8 @@ $breakpoint-six:815px;
 @media (max-width:$breakpoint-six){
     .about{
         .about-image{
-           height: 370px; 
+           height: 300px; 
+           width: 200px;
         }
         .about-me{
             padding: 0px 30px;
@@ -540,6 +541,26 @@ $breakpoint-six:815px;
                 font-size: 15px;
                 line-height: 30px;
             }
+        }
+    }
+    .work{
+        
+        .work-mentor{
+            .cards{
+                grid-template-columns: 1fr;
+            }
+        }
+        
+    }
+    .contact{
+        .contact-info{
+            font-size: 20px;
+        }
+        .contact-container{
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(3, 1fr);
+            
+    
         }
     }
 }

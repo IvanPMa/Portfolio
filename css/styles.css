@@ -597,7 +597,8 @@ body {
 
 @media (max-width: 815px) {
   .about .about-image {
-    height: 370px;
+    height: 300px;
+    width: 200px;
   }
   .about .about-me {
     padding: 0px 30px;
@@ -609,6 +610,19 @@ body {
   .about .about-me .about-me-body {
     font-size: 15px;
     line-height: 30px;
+  }
+  .work .work-mentor .cards {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .contact .contact-info {
+    font-size: 20px;
+  }
+  .contact .contact-container {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (1fr)[3];
+        grid-template-rows: repeat(3, 1fr);
   }
 }
 /*# sourceMappingURL=styles.css.map */
