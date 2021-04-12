@@ -274,18 +274,27 @@ body{
             color: $description-color;
         }
 
-        .cards{    
+        .cards{ 
+            width: 100%;
+            padding: 10px;   
             display: grid;
-            grid-column-gap: 30px;
-            grid-template-columns: repeat(3, 1fr);
+            // grid-column-gap: 10px;
+            grid-template-columns: minmax(0, auto) minmax(0, auto) minmax(0, auto);
+            grid-template-rows: minmax(0, auto) minmax(0, auto);
+            margin: 0 auto;
             
             .work-mentor-card{
+                
                 padding: 10px;
                 text-decoration: none;
                 color: $description-color;
                 font-size: 14px;
                 filter: grayscale(100%);
+                margin: 0 auto;
                 transition: all linear 0.5s;
+                margin-bottom: 30px;
+                
+                
             }
             .work-mentor-card:hover{
                 font-size: 16px;

@@ -361,11 +361,15 @@ body {
 }
 
 .work .work-mentor .cards {
+  width: 100%;
+  padding: 10px;
   display: -ms-grid;
   display: grid;
-  grid-column-gap: 30px;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: minmax(0, auto) minmax(0, auto) minmax(0, auto);
+      grid-template-columns: minmax(0, auto) minmax(0, auto) minmax(0, auto);
+  -ms-grid-rows: minmax(0, auto) minmax(0, auto);
+      grid-template-rows: minmax(0, auto) minmax(0, auto);
+  margin: 0 auto;
 }
 
 .work .work-mentor .cards .work-mentor-card {
@@ -375,8 +379,10 @@ body {
   font-size: 14px;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
+  margin: 0 auto;
   -webkit-transition: all linear 0.5s;
   transition: all linear 0.5s;
+  margin-bottom: 30px;
 }
 
 .work .work-mentor .cards .work-mentor-card:hover {
