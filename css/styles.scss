@@ -565,7 +565,7 @@ $breakpoint-six:815px;
     }
 }
 
-$breakpoint-seven:771px;
+$breakpoint-seven:810px;
 @media(max-width:$breakpoint-seven){
     .work{
         
@@ -589,6 +589,123 @@ $breakpoint-seven:771px;
     
                 .work-community-text-title{
                     font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .work-mentor{
+        width: 100%;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+        .work-mentor-title{
+            font-size: 35px;
+            margin-bottom: 0px;
+        }
+        .work-mentor-description{
+            margin-bottom: 30px;
+            font-size: 16px;
+            color: $description-color;
+        }
+
+        .cards{ 
+            width: 100%;
+            
+            
+            .work-mentor-card{
+                filter: grayscale(0%) !important;
+                width: 80%;
+                
+                .card-img{
+                    width: 100%;
+                }
+                
+                
+            }
+
+            
+        }
+    }
+
+    .contact{
+        
+        .contact-info{
+            width: 80%;
+            font-size: 20px;
+            br{
+                display: none;
+            }
+        }
+        .contact-container{
+            margin-top: 80px;
+            width: 80%;
+            display: grid;
+            
+            grid-gap: 0px;
+    
+        }
+        .social{
+            margin-bottom: 10px;
+            .contact-card{
+                width: 100%;
+                
+                
+                //icon card social
+                .contact-card-icon{
+                    font-size: 40px;
+                }
+                .contact-card-title{
+                    letter-spacing: 0px;
+                }
+                .contact-card-tag{
+                    letter-spacing: 0px;
+                }
+            }
+        }
+        .facebook{
+            .contact-card{
+                .contact-card-icon{
+                    color: #077ae9 !important;
+                }
+            }
+        }
+    
+        .instagram{
+            .contact-card{
+                .contact-card-icon{
+                    color: #c1339f;
+                }
+            }
+        }
+
+        .linkedin{
+            .contact-card{
+                .contact-card-icon{
+                    color: #1376da;
+                }
+            }
+        }
+        .whatsapp{
+            .contact-card{
+                .contact-card-icon{
+                    color: #49c759;
+                }
+            }
+        }
+        .github{
+            .contact-card{
+                .contact-card-icon{
+                    color: #e94e31;
+                }
+            }
+        }
+        .mail{
+            .contact-card{
+                .contact-card-icon{
+                    color: #c5221e;
                 }
             }
         }

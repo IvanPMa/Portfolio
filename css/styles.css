@@ -626,7 +626,7 @@ body {
   }
 }
 
-@media (max-width: 771px) {
+@media (max-width: 810px) {
   .work .work-community {
     width: 100%;
     -webkit-box-orient: vertical;
@@ -651,6 +651,88 @@ body {
   }
   .work .work-community .work-community-text .work-community-text-title {
     font-size: 20px;
+  }
+  .work-mentor {
+    width: 100%;
+    margin-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 100px;
+  }
+  .work-mentor .work-mentor-title {
+    font-size: 35px;
+    margin-bottom: 0px;
+  }
+  .work-mentor .work-mentor-description {
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #b0b0b0;
+  }
+  .work-mentor .cards {
+    width: 100%;
+  }
+  .work-mentor .cards .work-mentor-card {
+    -webkit-filter: grayscale(0%) !important;
+            filter: grayscale(0%) !important;
+    width: 80%;
+  }
+  .work-mentor .cards .work-mentor-card .card-img {
+    width: 100%;
+  }
+  .contact .contact-info {
+    width: 80%;
+    font-size: 20px;
+  }
+  .contact .contact-info br {
+    display: none;
+  }
+  .contact .contact-container {
+    margin-top: 80px;
+    width: 80%;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 0px;
+  }
+  .contact .social {
+    margin-bottom: 10px;
+  }
+  .contact .social .contact-card {
+    width: 100%;
+  }
+  .contact .social .contact-card .contact-card-icon {
+    font-size: 40px;
+  }
+  .contact .social .contact-card .contact-card-title {
+    letter-spacing: 0px;
+  }
+  .contact .social .contact-card .contact-card-tag {
+    letter-spacing: 0px;
+  }
+  .contact .facebook .contact-card .contact-card-icon {
+    color: #077ae9 !important;
+  }
+  .contact .instagram .contact-card .contact-card-icon {
+    color: #c1339f;
+  }
+  .contact .linkedin .contact-card .contact-card-icon {
+    color: #1376da;
+  }
+  .contact .whatsapp .contact-card .contact-card-icon {
+    color: #49c759;
+  }
+  .contact .github .contact-card .contact-card-icon {
+    color: #e94e31;
+  }
+  .contact .mail .contact-card .contact-card-icon {
+    color: #c5221e;
   }
 }
 /*# sourceMappingURL=styles.css.map */
