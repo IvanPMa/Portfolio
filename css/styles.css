@@ -467,13 +467,31 @@ body {
   color: #1376da;
 }
 
-.contact .hola {
+.contact .whatsapp {
   -webkit-transition: all linear 0.5s;
   transition: all linear 0.5s;
 }
 
-.contact .hola:hover i {
-  color: #1376da;
+.contact .whatsapp:hover i {
+  color: #49c759;
+}
+
+.contact .github {
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+
+.contact .github:hover i {
+  color: #e94e31;
+}
+
+.contact .mail {
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+
+.contact .mail:hover i {
+  color: #c5221e;
 }
 
 .footer {

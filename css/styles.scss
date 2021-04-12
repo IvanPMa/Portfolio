@@ -363,11 +363,23 @@ body{
         color: #1376da;
     }
 
-    .hola{
+    .whatsapp{
         transition: all linear 0.5s;
     }
-    .hola:hover i{
-        color: #1376da;
+    .whatsapp:hover i{
+        color: #49c759;
+    }
+    .github{
+        transition: all linear 0.5s;
+    }
+    .github:hover i{
+        color: #e94e31;
+    }
+    .mail{
+        transition: all linear 0.5s;
+    }
+    .mail:hover i{
+        color: #c5221e;
     }
     
 }
