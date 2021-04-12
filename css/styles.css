@@ -636,18 +636,25 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin-top: 100px;
     width: 80%;
     overflow: hidden;
-    margin-bottom: 100px;
   }
   .about .about-image {
     width: 60%;
     height: 400px;
+    padding: 30px 10px;
   }
   .about .about-me {
     width: 40%;
-    padding: 10px;
+    margin-top: 20px;
+    padding: 0px;
+  }
+  .about .about-me .about-me-title {
+    font-size: 25px;
+  }
+  .about .about-me .about-me-body {
+    margin-top: -10px;
+    line-height: 30px;
   }
   .work .work-community {
     width: 100%;
@@ -690,12 +697,12 @@ body {
     margin-bottom: 100px;
   }
   .work-mentor .work-mentor-title {
-    font-size: 35px;
+    font-size: 25px !important;
     margin-bottom: 0px;
   }
   .work-mentor .work-mentor-description {
     margin-bottom: 30px;
-    font-size: 16px;
+    font-size: 14px i !important;
     color: #b0b0b0;
   }
   .work-mentor .cards {
@@ -755,6 +762,32 @@ body {
   }
   .contact .mail .contact-card .contact-card-icon {
     color: #c5221e;
+  }
+}
+
+@media (max-width: 514px) {
+  .about {
+    height: calc(80vh - 80px);
+    width: 80%;
+  }
+  .about .about-image {
+    width: 65%;
+    height: 60%;
+  }
+  .about .about-me {
+    width: 35%;
+    margin-top: 20px;
+    padding: 0px;
+  }
+  .about .about-me .about-me-title {
+    font-size: 18px;
+  }
+  .about .about-me .about-me-body {
+    width: 100%;
+    padding: 0;
+    margin-top: -10px;
+    line-height: 20px;
+    font-size: 13px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
