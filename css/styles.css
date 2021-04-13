@@ -618,6 +618,7 @@ body {
 @media (max-width: 820px) {
   .menu-btn {
     display: block;
+    position: fixed;
   }
   .navigation .navigation-menu {
     display: -webkit-box;
