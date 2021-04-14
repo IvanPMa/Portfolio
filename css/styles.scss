@@ -912,16 +912,23 @@ $breakpoint-nine:500px;
             font-size: 18px;
         }
         .contact-container{
-            grid-template-columns:1fr;
+            grid-gap: 0px;
+            grid-template-columns:1fr 1fr;
             margin-top: 20px;
             .social{
+                justify-self: center;
                 margin-bottom: 22px;
+                
                 
                 .contact-card{
                     line-height: 0px;
                     .contact-card-icon{
-                        font-size: 20px;
+                        font-size: 30px;
                         color: $text-color !important;
+                    }
+                    .contact-card-tag{
+                        
+                        font-size: 9px;
                     }
                 }
             }

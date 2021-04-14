@@ -919,19 +919,25 @@ body {
     font-size: 18px;
   }
   .contact .contact-container {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-gap: 0px;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     margin-top: 20px;
   }
   .contact .contact-container .social {
+    -ms-grid-column-align: center;
+        justify-self: center;
     margin-bottom: 22px;
   }
   .contact .contact-container .social .contact-card {
     line-height: 0px;
   }
   .contact .contact-container .social .contact-card .contact-card-icon {
-    font-size: 20px;
+    font-size: 30px;
     color: #fafafc !important;
+  }
+  .contact .contact-container .social .contact-card .contact-card-tag {
+    font-size: 9px;
   }
   .footer {
     font-size: 11px;
