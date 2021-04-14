@@ -907,4 +907,29 @@ $breakpoint-nine:440px;
             }
         }
     }
+    .contact{
+        .contact-info{
+            font-size: 18px;
+        }
+        .contact-container{
+            grid-template-columns:1fr;
+            margin-top: 20px;
+            .social{
+                margin-bottom: 22px;
+                
+                .contact-card{
+                    line-height: 0px;
+                    .contact-card-icon{
+                        font-size: 20px;
+                        color: $text-color !important;
+                    }
+                }
+            }
+            
+        }
+    }
+    .footer{
+        
+        font-size: 13px;
+    }
 }

@@ -915,5 +915,26 @@ body {
     line-height: 20px;
     font-size: 13px;
   }
+  .contact .contact-info {
+    font-size: 18px;
+  }
+  .contact .contact-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
+  .contact .contact-container .social {
+    margin-bottom: 22px;
+  }
+  .contact .contact-container .social .contact-card {
+    line-height: 0px;
+  }
+  .contact .contact-container .social .contact-card .contact-card-icon {
+    font-size: 20px;
+    color: #fafafc !important;
+  }
+  .footer {
+    font-size: 13px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
