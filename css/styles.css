@@ -889,7 +889,7 @@ body {
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 500px) {
   .about {
     height: calc(80vh - 80px);
     width: 100%;
